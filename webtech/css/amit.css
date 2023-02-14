@@ -1,0 +1,30 @@
+div h1{
+    color: blue;
+    background-color: blanchedalmond;
+    font-size: 50px;
+    font-style: italic;
+}
+div h2{
+    color: purple;
+    background-color: pink;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div>h1{
+    color: white;
+    background-color: violet;
+    font-size: 50px;
+    font-style: italic;
+}
+div~h1{
+    color: wheat;
+    background-color: magenta;
+    font-size: 50px;
+    font-style: italic;
+}
+div+h3{
+    color: red;
+    background-color: maroon;
+    font-size: 50px;
+    font-style: italic;
+}

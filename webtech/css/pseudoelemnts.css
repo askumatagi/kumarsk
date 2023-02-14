@@ -1,0 +1,50 @@
+#a::after {
+    content: "YES";
+    color: aqua;
+    font-size: large;
+    font-weight: bold;
+}
+#b::after {
+    content: "NO";
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+
+}
+#c::before {
+    content: "YES";
+    color: aqua;
+    font-size: large;
+    font-weight: bold;
+}
+#d::before {
+    content: "NO";
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+
+}
+h3::first-letter {
+    color: rgb(141, 141, 6);
+    background-color: blue;
+
+}
+h2::first-line{
+    color: rgb(8, 105, 185);
+    background-color: rgb(225, 139, 182);
+
+}
+H1::selection {
+    color: red;
+    background-color: yellow;
+}
+div {
+    height: 200px;
+    width: 200px;
+    border-style: double;
+    border-color: blue;
+    border-width:10px;
+    border-top-style: dashed;
+    border-bottom-style: groove;
+
+}

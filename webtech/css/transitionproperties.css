@@ -1,0 +1,17 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 200px 200px;
+    border: 15px solid red;
+    transition: width 10s,height 10s;
+    background-image: url(../images/download\ \(1\).jpg);
+    background-repeat: no-repeat ;
+    background-size:cover; 
+}
+div:hover{
+    width: 800px;
+    height: 600px;
+    background-color: pink;
+
+}

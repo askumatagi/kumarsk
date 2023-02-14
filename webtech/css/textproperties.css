@@ -1,0 +1,18 @@
+
+h1{
+    color: blue;
+     direction: rtl;
+     text-align: center;
+     letter-spacing: 10px;
+     text-decoration: underline;
+     text-transform: capitalize;
+     text-shadow: 4px 4px 1px red;
+
+}
+ p{
+    height: 400px;
+    width: 600px;
+    color: black;
+    direction: ltr;
+    border: solid 6px rebeccapurple;
+}
